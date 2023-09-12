@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Krona One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/kronaone/v14/jAnEgHdjHcjgfIb1ZcUyOIWg_8a0Wy2V.woff2)
+    format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+#root {
+  width: 100%;
+  font-family: 'Krona One', sans-serif;
+  line-height: 1.5;
+  color: var(--light-color);
+
+  --light-color: #f1f3f4;
+  --middle-color: '';
+  --dark-color: #030303;
+  --pop-color: #72f467;
+  --popAlt-color: #5dc554;
+  --gradient: linear-gradient(
+    180deg,
+    rgba(3, 3, 3, 0.61) 0%,
+    rgba(3, 3, 3, 0) 100%
+  );
+
+  --heading-size: 34px;
+  --text-size: 21px;
+  --secondary-text-size: 16;
+
+  --xsmall-spacing: 8px;
+  --small-spacing: 16px;
+  --medium-spacing: 32px;
+  --large-spacing: 48px;
+  --larger-spacing: 72px;
+  --xlarge-spacing: 120px;
+
+  --box-shadow: 15px 15px 18px 0px rgba(0, 0, 0, 0.67);
+
+  --box-radius: 20px;
+  --button-radius: 50px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: var(--heading-size);
+  line-height: 1.1;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p {
+  font-size: var(--text-size);
+  line-height: 1.5;
+}
